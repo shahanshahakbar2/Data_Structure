@@ -1,0 +1,36 @@
+#form1{
+    display: flex;
+    border: 3px solid #222;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    flex-direction: column;
+    line-height: 2;
+    background-color: lightgray;
+}
+.group1 label{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.group1 input{
+    padding: 12px 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+}
+#result1{
+    padding: 20px;
+    width: 450px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: blue;
+    margin: auto;
+}
+.group input{
+    padding: 12px 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}

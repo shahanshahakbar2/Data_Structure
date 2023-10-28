@@ -1,0 +1,54 @@
+.reverse{
+    text-align: center;
+    line-height: 2;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: aqua;
+    border: 2px dotted #222;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    margin: 2rem auto;
+    width: 40%;
+    
+    
+}
+.reverse>.int-1>label{
+    font-size: 1.9rem;
+    font-weight: bold;
+
+}
+.reverse>.int-1>input{
+    font-size: 1rem;
+    width: 40%;
+    padding:0.8rem 1.5rem;
+}
+.reverse>.result-1>label{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.reverse>.result-1>input{
+    font-size: 1rem;
+    width: 40%;
+    padding:0.8rem 1.5rem;
+    
+
+}
+.reverse>.btn>input{
+    font-size: 1.2rem;
+    color: rgb(194, 23, 51);
+    background-color: rgb(174, 174, 233);
+    padding: 0.5rem;
+    border: 2px dotted #fff;
+    border-radius: 1rem;
+    width: 50%;
+    margin-top: 0.7rem;
+    
+}
+.reverse>.btn>input:hover{
+    color: #222;
+    background-color: greenyellow;
+    border: 2px solid #222;
+    transition: all 1s;
+    cursor: pointer;
+}

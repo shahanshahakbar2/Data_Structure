@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    border: 3px solid #222;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+}
+form .group1{
+    margin: 4px;
+
+}
+form .group1 label{
+    padding: 12px 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.group1 input{
+    padding: 12px 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#result1{
+    padding: 20px;
+    width: 30%;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: blue;
+    margin: auto;
+}
